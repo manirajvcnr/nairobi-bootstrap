@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+.header-nairobi{
+    height: auto;
+    width: 100%;
+    background-image: url(./images/about_me.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.back-dark{
+    background-color: rgba(0,0,0,0.4);
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    height: 50px;
+    border: 0.5px solid lightgray;
+}
+.nav-item{
+    border-left: 0.5px solid rgb(181, 181, 181);
+    height: 50px;
+    font-size: 12px;
+    padding-top: 7px;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-item a{
+    color: rgb(178, 170, 170);
+}
+.nav-item a:hover{
+    color: rgb(255, 251, 0);
+}
+.contact{
+    border-right: 0.5px solid lightgray; 
+}
+.home{
+    color: #fff !important;
+}
+.navbar-brand{
+    color: #fff;
+}
+.navbar-brand:hover{
+    color: #fff;
+}
+/* nav body */
+.nav-body{
+    padding: 250px 0;
+    color: #fff;
+}
+.nav-bottom{
+    color: #fff;
+}
+.nav-bottom i{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #252525;
+    padding: 5px;
+    font-size: 12px;
+}
+.scroll{
+    font-size: 12px;
+}
+/* about */
+.about-left{
+    background-color: yellow;
+    text-align: center;
+}
+.about-left img{
+    height: auto;
+    width: 50%;
+    border: 5px solid #fff;
+}
+.about-right{
+    background-color: #fff;
+}
