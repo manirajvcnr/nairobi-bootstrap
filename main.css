@@ -64,14 +64,124 @@ font-family: 'Poppins', sans-serif; */
 }
 /* about */
 .about-left{
-    background-color: yellow;
+    background-color: #ffcc00;
     text-align: center;
 }
 .about-left img{
-    height: auto;
-    width: 50%;
     border: 5px solid #fff;
+    z-index: 2;
+    height: 500px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 20%);
 }
-.about-right{
+.bio{
     background-color: #fff;
+    margin-left: 100px;
+}
+.bio button{
+    border: none;
+    height: 40px;
+    background-color: #ffcc00;
+    color: #fff;
+    box-shadow: 0px 2px 10px rgb(0 0 0 / 10%);
+}
+/* services */
+.services{
+    background-color: #fef5ed;
+}
+.services-header h1{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+}
+.services-header h1::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 40px;
+    background-color: orange;
+    top: 50px;
+    left: calc(50% - 20px);
+    bottom: 0;
+    right: 0;
+}
+.content{
+    background-color: #fff;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 20%);
+    margin: 10px 0;
+}
+.content b{
+    display: block;
+    padding: 10px 0;
+}
+.content i{
+    font-size: 40px;
+    color: #f8b076;
+}
+/* education-details */
+.edu-info{
+    box-shadow: 0px 2px 10px rgb(0 0 0 / 20%);
+    background-color: orange;
+    color: #fff;
+}
+.edu-details span{
+    height: 30px;
+    padding: 0px 8px;
+    border-radius: 10px;
+    background-color: #252525;
+    font-size: 12px;
+}
+.edu-details h3{
+    font-size: 18px;
+    padding: 5px 0;
+}
+.edu-details p{
+    font-size: 14px;
+}
+.exp-info{
+    box-shadow: 0px 2px 10px rgb(0 0 0 / 20%);
+    background-color: #252525;
+    color: #fff;
+}
+.exp-details span{
+    height: 30px;
+    padding: 0px 8px;
+    border-radius: 10px;
+    background-color: orange;
+    font-size: 12px;
+}
+.exp-details h3{
+    font-size: 18px;
+    padding: 5px 0;
+}
+.exp-details p{
+    font-size: 14px;
+}
+.skill-info{
+    box-shadow: 0px 2px 10px rgb(0 0 0 / 20%);
+    background-color: #fce5d3;
+}
+progress{
+    height: 18px;
+    width: 100%;
+    border-radius: 0;
+}
+progress[value]::-webkit-progress-bar{
+    background-color: #000 !important;
+}
+progress[value]::-webkit-progress-value {
+    background-color: rgb(208, 137, 4) !important;
+}
+.edu-after h3{
+    position: relative;
+}
+.edu-after h3::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 40px;
+    background-color: #f8b076;
+    left: 0;
+    bottom: 0;
+    top: 40px;
+    right: 0;
 }
